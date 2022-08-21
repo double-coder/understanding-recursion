@@ -16,4 +16,8 @@ func main() {
 	fmt.Println(binarysearch(nums, 12, 0, len(nums)))
 	//fibonacci
 	fmt.Println(fibo(10))
+	// merge sort
+	sortthese := []int{2, 3, 1, 0, -1}
+	mergesort(sortthese, 0, len(sortthese)-1)
+	fmt.Println(sortthese)
 }
